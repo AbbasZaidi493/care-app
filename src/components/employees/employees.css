@@ -1,0 +1,115 @@
+.employee-section {
+    height: auto;
+}
+.employee {
+    display: flex;    
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+@media(max-width:480px) {
+    .employee {
+        flex-direction: column-reverse;
+        width: 90%;
+        }
+  }
+.employee-content {
+    margin-top: 100px;
+    margin-bottom: 100px;    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width:480px) {
+    .employee-content {
+        margin-top: 50px;
+        width: 100%;
+    }
+  }
+.employee-heading {
+    font-weight: 900;
+    color: white;
+}
+@media(max-width:1025px) {
+    .employee-heading {
+        font-size: 25px;
+    }
+  }
+.employee-subheading {
+    font-weight: 900;
+    color: white;
+}
+@media(max-width:1025px) {
+    .employee-subheading {
+        font-size: 20px;
+        margin-top: 0;
+    }
+  }
+.employee-span {
+    font-size: 14px;
+    color: white;
+}
+@media(max-width:1025px) {
+    .employee-span {
+        font-size: 12px;
+    }
+  }
+.employee-button {
+    margin-top: 25px;
+    height: 40px;
+    width: 140px;
+    border-radius: 8%;
+    color: white;
+    font-size: 12px;
+    background: bottom;
+}
+@media(max-width:1025px) {
+    .employee-button {
+        font-size: 11px;
+        width: 110px;
+    }
+  }
+.demo-button {
+    margin-top: 25px;
+    height: 40px;
+    margin-left: 25px;
+    width: 140px;
+    border: none;
+    border-radius: 8%;
+    color: white;
+    font-size: 12px;
+    background-image: linear-gradient(to right, #3b69d0 0%, #275bcc 51%, #a1c4fd 100%);;
+}
+@media(max-width:1025px) {
+    .demo-button {
+        font-size: 11px;
+        margin-left: 10px;
+        width: 110px;
+    }
+  }
+.image-section {
+    margin-top: 100px;    
+    width: 50%;
+}
+@media(max-width:480px) {
+    .image-section {
+        text-align: center;
+       width: 100%;
+        }
+  }
+.smart-devices {
+    width: 400px;
+    height: 300px;
+    float: right;
+}
+@media(max-width:1025px) {
+    .smart-devices {
+        width: 300px;
+        height: 250px;
+        }
+  }
+  @media(max-width:480px) {
+    .smart-devices {
+        float: unset;
+        }
+  }

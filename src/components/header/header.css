@@ -1,0 +1,23 @@
+.header {
+    height: 60px;
+    background: #ffff;
+}
+.header-list {
+    float: right;
+    margin-right: 70px;
+}
+@media(max-width:380px) {
+    .header-list{
+        float: none;
+        padding-left: 20px;
+    }
+  }
+.list-items {
+    display: inline;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: 900;
+}
+.login {
+    color: cornflowerblue;
+}

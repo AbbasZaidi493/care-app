@@ -1,0 +1,122 @@
+.contact-section {
+    margin: auto;
+    padding-top: 75px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width:380px) {
+    .contact-section {
+        width: 95%;
+    }
+  }
+.smart-phone {
+    color:lightslategray;
+    font-size: 18px;
+}
+.download {
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 10px;
+}
+.available {
+    font-size: 15px;
+}
+.apps {
+    color: cornflowerblue;
+    font-weight: 900;
+}
+.app-buttons {
+    padding-top: 20px;    
+}
+.play {
+    height: 40px;
+    width: 150px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    background: mediumseagreen;
+    border-radius: 6%;
+}
+@media(max-width:480px) {
+    .play {
+        width: 105px;
+        font-size: 10px;
+    }
+  }
+  @media(max-width:380px) {
+    .play {
+        width: 90px;
+    }
+  }
+.icon {
+    height: 30px;
+    width: 25px;
+}
+@media(max-width:380px) {
+    .icon {
+        height: 25px;
+        width: 20px;
+    }
+  }
+.window {
+    margin-left: 20px; 
+    height: 40px;
+    width: 200px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    background: mediumseagreen;
+    border-radius: 6%;
+}
+@media(max-width:480px) {
+    .window {
+        margin-left: 10px; 
+        width: 140px;
+        font-size: 10px;
+    }
+  }
+  @media(max-width:380px) {
+    .window {
+        margin-left: 5px; 
+        width: 100px;
+    }
+  }
+.apple {
+    margin-left: 20px;     
+    height: 40px;
+    width: 150px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    background: cornflowerblue;
+    border-radius: 6%;
+}
+@media(max-width:480px) {
+    .apple {
+        margin-left: 10px; 
+        width: 105px;
+        font-size: 10px;
+    }
+  }
+  @media(max-width:380px) {
+    .apple {
+        margin-left: 5px; 
+        width: 90px;
+    }
+  }
+.mobile {
+    max-height:200px;
+    overflow:hidden;
+    padding-top: 20px;
+}
+.mobile-pic {
+    width: 400px;
+    height: 325px;
+}
+@media(max-width:380px) {
+    .mobile-pic {
+        width: 300px;
+    }
+  }
